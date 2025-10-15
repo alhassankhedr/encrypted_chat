@@ -1,0 +1,13 @@
+# OpenWebUI + Lorica.ai Integration Requirements
+
+# Core dependencies
+open-webui>=0.3.0
+lorica
+
+# Required for the pipe implementation
+pydantic>=2.0.0
+requests>=2.28.0
+
+# Python version requirement
+# Note: OpenWebUI requires Python 3.12
+
