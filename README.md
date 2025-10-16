@@ -38,17 +38,18 @@ A secure integration that enables OpenWebUI to use Lorica.ai's encrypted inferen
 ### 1) Add the Lorica Function
 
 1. Open OpenWebUI in your browser (usually `http://localhost:8080`)
-2. Click the user icon (top right or bottom left)
-3. Go to Admin Panel
-4. Click the Functions tab
-5. Click Add New Function (right side)
-6. Click New Function
-7. Copy and paste the contents of `open_webui.py` into the code space
-8. Fill in the function details:
+2. Create an admin account
+3. Click the user icon (top right or bottom left)
+4. Go to Admin Panel
+5. Click the Functions tab
+6. Click Add New Function (right side)
+7. Click New Function
+8. Copy and paste the contents of `open_webui.py` into the code space
+9. Fill in the function details:
    - Function Name: `Lorica Encrypted Inference`
    - Function ID: `lorica-ohttp`
    - Function Description: `Secure integration with Lorica.ai using OHTTP encryption and confidential computing`
-9. Click Save
+10. Click Save
 
 ### 2) Configure API Credentials
 
