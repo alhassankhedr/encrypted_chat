@@ -16,36 +16,19 @@ A secure integration that enables OpenWebUI to use Lorica.ai's encrypted inferen
 - Python 3.12 (required for OpenWebUI compatibility)
 - Lorica.ai API credentials (API URL, API Key, and Model ID)
 
-### One-Command Setup
+### Installation
 
-```bash
-curl -sSL https://raw.githubusercontent.com/yourusername/openwebui-lorica/main/setup.sh | bash
-```
-
-Note: Replace `yourusername` with your actual GitHub username when you create the repository.
-
-Or manually follow the steps below:
-
-### Manual Installation
-
-1. Clone the repository
+1. Clone repo and setup
    ```bash
-   git clone https://github.com/yourusername/openwebui-lorica.git
-   cd openwebui-lorica
+   git clone https://github.com/alhassankhedr/encrypted_chat.git && cd encrypted_chat && bash setup.sh
    ```
 
-2. Create virtual environment
+2. Activate virtual environment
    ```bash
-   python3.12 -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate
    ```
 
-3. Install dependencies
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Start OpenWebUI
+3. Start OpenWebUI
    ```bash
    open-webui serve
    ```
@@ -72,7 +55,7 @@ Or manually follow the steps below:
 1. Go back to the Functions menu
 2. Find your function and click the gear icon
 3. Configure:
-   - LORICA_API_BASE_URL: e.g., `https://api.lorica.ai/v1`
+   - LORICA_API_BASE_URL: e.g., `https://xxxxxxxx.dep.lorica.ai`
    - LORICA_API_KEY: your Lorica API key
    - MODEL_ID: the model identifier from Lorica (e.g., `org/model-name`)
 4. Enable the function by toggling it on (green)
@@ -107,7 +90,6 @@ OpenWebUI → OHTTP Encryption → Lorica.ai → Confidential Compute → Encryp
 ### Security Lifecycle
 
 - Transport Protection: HTTPS + OHTTP encryption
-- Storage Protection: Encrypted persistence in Lorica
 - Compute Protection: Confidential computing enclaves
 - Replay Protection: Built into OHTTP protocol
 
@@ -144,14 +126,12 @@ MIT License. See `LICENSE`.
 
 ## 🆘 Support
 
-- Issues: https://github.com/yourusername/openwebui-lorica/issues
+- Issues: https://github.com/alhassankhedr/encrypted_chat/issues
 - Lorica Docs: https://docs.lorica.ai
 - OpenWebUI Docs: https://docs.openwebui.com
 
-Note: Replace `yourusername` with your actual GitHub username in URLs above.
-
 ## 🙏 Acknowledgments
 
-- OpenWebUI
+- Open-WebUI
 - Lorica.ai
 - The open source community
