@@ -23,6 +23,9 @@ A privacy-first integration that connects **OpenWebUI** with **Lorica.ai** using
 - Python **3.12** (required for OpenWebUI compatibility)
 - Lorica.ai API credentials (`LORICA_API_BASE_URL`, `LORICA_API_KEY`, `MODEL_ID`)
 
+> **Compatibility:** This project is compatible with Unix-based systems (macOS and Linux).  
+> It has not been tested on Windows Subsystem for Linux (WSL) or Docker on Windows.
+
 ---
 
 ### Installation
